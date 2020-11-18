@@ -15,7 +15,7 @@ after_script:
   - git config user.email "tantaiqiuyue@gmail.com"
   - git add -A
   - git commit -m "Update document"
-  - git push --force "https://${GH_TOKEN}@github.com/tantaiMoon/rc-ts-webpack.git" "main:gh-pages"
+  - git push --force  --quiet "https://${GH_TOKEN}@github.com/tantaiMoon/rc-ts-webpack.git" master:gh-pages
 # branches:
 #   only:
 #     - main
