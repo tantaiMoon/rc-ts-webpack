@@ -5,5 +5,5 @@ let root = document.getElementById('root');
 
 let props = { className: 'title' };
 
-let el = React.createElement('div', props, 'hello! react+ts+webpack');
+let el = React.createElement('div', props, 'hello! react+ts+webpack travis-ci');
 ReactDOM.render(el, root);

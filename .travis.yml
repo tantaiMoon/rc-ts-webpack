@@ -14,5 +14,3 @@ after_script:
 branches:
   only:
     - master
-# GH_TOKEN 671eaa732b31f636c823aa525a89a9e91b30dd7b
-# GH_REF github.com/tantaiMoon/rc-ts-webpack.git
